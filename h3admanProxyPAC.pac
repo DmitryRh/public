@@ -31,17 +31,3 @@ function FindProxyForURL(url, host)
  else
   return "DIRECT";
  }
-
-
-
-//
-//-------------------------------------------------------
-// else if (shExpMatch(host, "*vk.com*"))
-//  return "SOCKS5 socks.zaborona.help:1488"; " +
-//   "SOCKS5 socks.zaborona.help:1488";
-//-------------------------------------------------------
-//*vk.com*  --- Все в этом домене идет через прокси.
-//socks.zaborona.help:1488  --- Прокси и порт.
-//SOCKS5  --- Тип прокси (PROXY, SOCKS, SOCKS4, SOCKS5)
-//-------------------------------------------------------
-//
