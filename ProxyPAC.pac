@@ -10,6 +10,8 @@ function FindProxyForURL(url, host)
   return "SOCKS5 socks.zaborona.help:1488";
  else if (shExpMatch(host, "*vkuservideo.net*"))
   return "SOCKS5 socks.zaborona.help:1488";
+ else if (shExpMatch(host, "*vkcdnservice.com*"))
+  return "SOCKS5 socks.zaborona.help:1488";
  else if (shExpMatch(host, "*yandex.ru*"))
   return "SOCKS5 socks.zaborona.help:1488";
  else if (shExpMatch(host, "*yandex.ua*"))
