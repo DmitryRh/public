@@ -22,6 +22,8 @@ function FindProxyForURL(url, host)
   return "SOCKS5 socks.zaborona.help:1488";
  else if (shExpMatch(host, "*yandex.net*"))
   return "SOCKS5 socks.zaborona.help:1488";
+ else if (shExpMatch(host, "*nayndex.net*"))
+  return "SOCKS5 socks.zaborona.help:1488";
  else if (shExpMatch(host, "*yandex.org*"))
   return "SOCKS5 socks.zaborona.help:1488";
  else if (shExpMatch(host, "*yandex.mobi*"))
