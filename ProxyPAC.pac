@@ -2,6 +2,7 @@ function FindProxyForURL(url, host)
  {
  if (isPlainHostName(host))
   return "DIRECT";
+// VK
  else if (shExpMatch(host, "*vk.com*"))
   return "SOCKS5 socks.zaborona.help:1488";
  else if (shExpMatch(host, "*userapi.com*"))
@@ -12,6 +13,7 @@ function FindProxyForURL(url, host)
   return "SOCKS5 socks.zaborona.help:1488";
  else if (shExpMatch(host, "*vkcdnservice.com*"))
   return "SOCKS5 socks.zaborona.help:1488";
+// Yandex
  else if (shExpMatch(host, "*yandex.ru*"))
   return "SOCKS5 socks.zaborona.help:1488";
  else if (shExpMatch(host, "*yandex.ua*"))
@@ -30,10 +32,12 @@ function FindProxyForURL(url, host)
   return "SOCKS5 socks.zaborona.help:1488";
  else if (shExpMatch(host, "*yadi.sk*"))
   return "SOCKS5 socks.zaborona.help:1488";
+// Ok.Ru
  else if (shExpMatch(host, "*ok.ru*"))
   return "SOCKS5 socks.zaborona.help:1488";
  else if (shExpMatch(host, "*odnoklassniki.ru*"))
   return "SOCKS5 socks.zaborona.help:1488";
+// Mail.Ru
  else if (shExpMatch(host, "*mail.ru*"))
   return "SOCKS5 socks.zaborona.help:1488";
  else if (shExpMatch(host, "*imgsmail.ru*"))
