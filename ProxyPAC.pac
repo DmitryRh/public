@@ -38,6 +38,8 @@ function FindProxyForURL(url, host)
   return "SOCKS5 socks.zaborona.help:1488";
  else if (shExpMatch(host, "*imgsmail.ru*"))
   return "SOCKS5 socks.zaborona.help:1488";
+ else if (shExpMatch(host, "*mradx.net*"))
+  return "SOCKS5 socks.zaborona.help:1488";
  else
   return "DIRECT";
  }
